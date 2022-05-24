@@ -1,0 +1,22 @@
+algo 4
+var
+i:integer;
+j:integer;
+n:integer;
+case:integer;
+t: array of integer[];
+BEGIN
+i:=1
+read(n)
+while (i<n-1){
+j:=i-1;
+case:=t[i]
+while(j>=-1 &&t[j]>case){
+  t[j+1]:=t[j]
+    j:=j-1
+}
+t[j+1]:=k
+  i:=i+1
+}
+
+END
